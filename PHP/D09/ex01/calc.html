@@ -1,0 +1,87 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<input id=lval type=text name=lval value=''>
+		<select id=ope form=calc name=op>
+			<option value='+'>+</option>
+			<option value='-'>-</option>
+			<option value='*'>*</option>
+			<option value='/'>/</option>
+			<option value='%'>%</option>
+		</select>
+		<input id=rval type=text name=rval value=''>
+		<input type='submit' onClick=test() name=submit value='Try me!'>
+		<script>
+			setInterval(function() {alert("Please, use me ...")}, 30000);
+			function test()
+			{
+				var lval = Number(document.getElementById('lval').value);
+				var rval = Number(document.getElementById('rval').value);
+				var ope = document.getElementById('ope').value;
+				if (isNaN(lval) || isNaN(rval))
+				{
+					alert('Error :(');
+					console.log("Error :(");
+				}
+				else
+				{
+					if (lval < 0||rval < 0||(lval % 1 !== 0)||(rval % 1 !==0))
+					{
+						alert('Error :(');
+						console.log("Error :(");
+					}
+					else
+					{
+						if (ope == '+')
+						{
+							var res = lval + rval;
+							alert(res);
+							console.log(res);
+						}
+						else if (ope == '-')
+						{
+							var res = lval - rval;
+							alert(res);
+							console.log(res);
+						}
+						else if (ope == '*')
+						{
+							var res = lval * rval;
+							alert(res);
+							console.log(res);
+						}
+						else if (ope == '/')
+						{
+							if (rval == 0)
+							{
+								alert("It's over 9000!");
+								console.log("It's over 9000!");
+							}
+							else
+							{
+								var res = lval / rval;
+								alert(res);
+								console.log(res);
+							}
+						}
+						else if (ope == '%')
+						{
+							if (rval == 0)
+							{
+								alert("It's over 9000!");
+								console.log("It's over 9000!");
+							}
+							else
+							{
+								var res = lval % rval;
+								alert(res);
+								console.log(res);
+							}
+						}
+					}
+				}
+			}
+		</script>
+	</body>
+</html>

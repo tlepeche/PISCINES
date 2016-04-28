@@ -1,0 +1,1 @@
+<?php $host = "rush00.local.42.fr"; $user = "root"; $userpass = "thomas130989"; ?>

@@ -1,0 +1,20 @@
+<- Matrix ----------------------------------------------------------------------
+The Matrix class handles a preset as parameter.
+
+The preset build a matrix base on those following parameters:
+
+-IDENTITY : create the matrix named IDENTITY.
+
+-SCALE : create the matrix multiplied by the factor SCALE;
+
+-RX / RY / RZ: Create the matrix with a rotation angle on X / Y / Z axes.
+
+-TRANSLATION : Create the matrix with a translation of a vtc vector.
+
+-PROJECTION: Return the projection matrice based on the 4 parameters :
+*fov = field of view (degree)
+*ratio
+*near
+*far
+for more info about PROJECTION matrix, see OpenGL Projection Matrix.
+---------------------------------------------------------------------- Matrix ->

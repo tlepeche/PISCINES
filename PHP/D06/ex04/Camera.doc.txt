@@ -1,0 +1,8 @@
+<- Camera ---------------------------------------------------------
+The class camera gives you the coordinates of a camera, base on
+a vertex origin, an orientation, the lenght and width of your
+screen, the field of view, and the nearest and farest clipping plan.
+
+the function watchVertex transform a "world" coordiante vertex
+into a Vertex usable for your screen (NDS).
+--------------------------------------------------------- Camera ->

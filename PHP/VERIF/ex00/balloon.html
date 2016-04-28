@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<style>
+			#balloon
+			{
+				height: 200px;
+				width: 200px;
+				border-radius: 50%;
+				background-color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<div id=balloon>
+		</div>
+		<script>
+			var color = new Array('red', 'green', 'blue');
+			var count = 0;
+			var size = 200;
+			var balloon = document.getElementById('balloon');
+			balloon.onclick = function click()
+			{
+				count = (count + 1) % 3;
+				size += 10;
+				if (size > 420)
+				{
+					size = 200;
+					count = 0;
+				}
+				balloon.style.height = size;
+				balloon.style.width = size;
+				balloon.style.backgroundColor = color[count];
+				console.debug(size);
+			}
+			balloon.onmouseleave = function degonfle()
+			{
+				count = (count - 1);
+				if (count == -1)
+				count = 2;
+				if (size > 200)
+					size -= 5;
+				balloon.style.height = size;
+				balloon.style.width = size;
+				balloon.style.backgroundColor = color[count];
+				console.debug(size);
+			}
+		</script>
+	</body>
+</html>

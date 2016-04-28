@@ -1,0 +1,17 @@
+H1 {color: white;}
+td {width: 1%; height: 1%; border-radius: 5px;}
+#photo {width: 40%; height:20%;}
+.non-metaux {background-color: #7fff00}
+.gaz-rares {background-color: #1e90ff}
+.alcalins {background-color: #ffd700}
+.alc-terr {background-color: #ffff00}
+.transition {background-color: #d2b48c}
+.post-trans {background-color: #3cb371}
+.metalloides {background-color: #008080}
+.transition {background-color: #d2b48c}
+.halogene {background-color: #40e0d0}
+.lanthanide {background-color: #ffdab9}
+.actinide {background-color: pink}
+.nom {text-align: center; font-size: 1.5vw; font-weight: bold;}
+.index {text-align: left; font-size: 1vw}
+.poids {text-align: right; font-size: 1vw}

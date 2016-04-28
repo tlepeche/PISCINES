@@ -1,0 +1,496 @@
+/*INDEX.PHP*/
+
+body
+{
+
+/*	background-image: url('http://t2.gstatic.com/images?q=tbn:ANd9GcQPlsgpBzgbMYC5qCtTbpxJ07Vv11Qg229eOmN8ZyNdX_QYavBoBOKwqyAFBg');*/
+	background-size: cover;
+	background-color: lightgrey;
+}
+
+.tab_cart, .td_cart, .th_cart
+{
+	margin-top: 100px;
+	margin-left: 50px;
+	padding: 10px 10px 10px 10px;
+	border: 2px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+fieldset.form_reg
+{
+	text-align: center;
+}
+
+.btn_reg
+{
+
+	font-size: 16px;
+	width: 100px;
+
+}
+
+.form_bill, .td_reg
+{
+	margin-left: 50px;
+	border-collapse: collapse;
+	border: 2px solid black;
+	padding: 10px 10px 10px 10px;
+}
+
+.form_bill
+{
+	margin-bottom: 30px;
+}
+
+.btn_cart
+{
+	font-size: 16px;
+	margin-left: 180px;
+	width: 100px;
+}
+
+.msg_cart
+{
+	margin-left: 180px;
+}
+
+.form_reg
+{
+	width: 300px;
+}
+
+.sort_b
+{
+	width: 110px;
+}
+
+.fl
+{
+	margin-top: 10px;
+	width: 110px;
+}
+
+.research
+{
+	width: 180px;
+	position: absolute;
+}
+
+.s_type
+{
+	width: 180px;
+}
+
+#txt_search
+{
+	width: 80px;
+}
+
+.list
+{
+	margin-left: 200px;
+}
+
+/*INFO.CSS*/
+.back
+{
+	text-align: center;
+}
+
+.pokeinfo
+{
+	margin-left :auto;
+	margin-right: auto;
+	border: 3px solid black;
+	border-collapse : collapse;
+	height: 40px;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+.title
+{
+	font-size: 25;
+	line-height: 35px;
+	text-align: center;
+}
+
+#pkdol
+{
+	line-height: 33px;
+	vertical-align: middle;
+	width: 25px;
+	height: 25px;
+}
+
+#price
+{
+	font-size: 18;
+}
+
+#order
+{
+	margin-top: 10px;
+}
+
+#back
+{
+	text-align: center;
+}
+
+.c_type1
+{
+	width: 200px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #000000;
+	text-align: center;
+}
+
+.c_type2
+{
+	width: 200px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #d2691e;
+	text-align: center;
+	line-height: 33px;
+	vertical-align: middle;
+	border-radius: 10px;
+	color: white;
+	font-size: 25;
+}
+
+.c_type3
+{
+	width: 200px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffd700;
+	text-align: center;
+	line-height: 33px;
+	vertical-align: middle;
+	border-radius: 10px;
+	color: white;
+	font-size: 25;
+}
+
+.c_type4
+{
+	width: 200px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ff0000;
+	text-align: center;
+	line-height: 33px;
+	vertical-align: middle;
+	border-radius: 10px;
+	color: white;
+	font-size: 25;
+}
+
+.c_type5
+{
+	width: 200px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #808000;
+	text-align: center;
+	line-height: 33px;
+	vertical-align: middle;
+	border-radius: 10px;
+	color: white;
+	font-size: 25;
+}
+
+.c_type6
+{
+	width: 200px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #32cd32;
+	text-align: center;
+	line-height: 33px;
+	vertical-align: middle;
+	border-radius: 10px;
+	color: white;
+	font-size: 25;
+}
+
+.c_type7
+{
+	width: 200px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ff69b4;
+	text-align: center;
+	line-height: 33px;
+	vertical-align: middle;
+	border-radius: 10px;
+	color: white;
+	font-size: 25;
+}
+
+.c_type8
+{
+	width: 200px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f5deb3;
+	text-align: center;
+	line-height: 33px;
+	vertical-align: middle;
+	border-radius: 10px;
+	color: white;
+	font-size: 25;
+}
+
+.c_type9
+{
+	width: 200px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #050505;
+	text-align: center;
+	line-height: 33px;
+	vertical-align: middle;
+	border-radius: 10px;
+	color: white;
+	font-size: 25;
+}
+
+.c_type10
+{
+	width: 200px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #b22222;
+	text-align: center;
+	line-height: 33px;
+	vertical-align: middle;
+	border-radius: 10px;
+	color: white;
+	font-size: 25;
+}
+
+.c_type11
+{
+	width: 200px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #1e90ff;
+	text-align: center;
+	line-height: 33px;
+	vertical-align: middle;
+	border-radius: 10px;
+	color: white;
+	font-size: 25;
+}
+
+.c_type12
+{
+	width: 200px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+	text-align: center;
+	line-height: 33px;
+	vertical-align: middle;
+	border-radius: 10px;
+	color: white;
+	font-size: 25;
+}
+
+.c_type13
+{
+	width: 200px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #00ffff;
+	text-align: center;
+	line-height: 33px;
+	vertical-align: middle;
+	border-radius: 10px;
+	color: white;
+	font-size: 25;
+}
+
+.c_type14
+{
+	width: 200px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #050505;
+	text-align: center;
+	line-height: 33px;
+	vertical-align: middle;
+	border-radius: 10px;
+	color: white;
+	font-size: 25;
+}
+
+.c_type15
+{
+	width: 200px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ba55d3;
+	text-align: center;
+	line-height: 33px;
+	vertical-align: middle;
+	border-radius: 10px;
+	color: white;
+	font-size: 25;
+}
+
+.c_type16
+{
+	width: 200px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #a0522d;
+	text-align: center;
+	line-height: 33px;
+	vertical-align: middle;
+	border-radius: 10px;
+	color: white;
+	font-size: 25;
+}
+
+.c_type17
+{
+	width: 200px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #9932cc;
+	text-align: center;
+	line-height: 33px;
+	vertical-align: middle;
+	border-radius: 10px;
+	color: white;
+	font-size: 25;
+}
+
+.c_type18
+{
+	width: 200px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #4682b4;
+	text-align: center;
+	line-height: 33px;
+	vertical-align: middle;
+	border-radius: 10px;
+	color: white;
+	font-size: 25;
+}
+
+/*HEADER.CSS*/
+#text_cart
+{
+	font-weight: bold;
+	text-align: center;
+}
+
+#left
+{
+	width: 155px
+}
+
+#title
+{
+	margin-left:400px;
+	text-align: center;
+}
+
+#site
+{
+	font-size: 40px;
+}
+
+#right
+{
+	width: 260px
+}
+
+.site
+{
+	width: 600px;
+	height: 240px;
+	margin-bottom: 50px;
+}
+
+/*LIST.CSS*/
+.index
+{
+	font-style: italic;
+}
+
+.entete
+{
+	height: 30px;
+}
+
+.pict
+{
+	height: 113px;
+}
+
+.typ
+{
+	height: 20px;
+}
+
+#list
+{
+	width: 150px;
+	height: 150px;
+}
+
+/*CHECK_LOG.PHP*/
+.admin
+{
+	margin-right: 60px;
+	margin-top: -60px;
+}
+
+.manage
+{
+	margin-right: 60px;
+	margin-top: -140px;
+}
+
+/*LOGIN.HTML*/
+.login
+{
+	float: right;
+	width: 250px;
+}
+
+/*LOGOUT.PHP*/
+.logout
+{
+	height: 60px;
+	width: 60px;
+}

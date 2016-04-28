@@ -1,0 +1,97 @@
+<!-- *********************************************************************** -->
+<!--                                                                         -->
+<!--                                                      :::      ::::::::  -->
+<!-- doft.html                                          :+:      :+:    :+:  -->
+<!--                                                  +:+ +:+         +:+    -->
+<!-- By: tlepeche <tlepeche@student.42.fr>          +#+  +:+       +#+       -->
+<!--                                              +#+#+#+#+#+   +#+          -->
+<!-- Created: 2015/04/06 18:25:00 by tlepeche          #+#    #+#            -->
+<!-- Updated: 2015/04/07 20:16:52 by tlepeche         ###   ########.fr      -->
+<!--                                                                         -->
+<!-- *********************************************************************** -->
+
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<meta charset="utf-8" />
+		<TITLE>Day of the 42</TITLE>
+		<LINK rel="stylesheet" type="text/css" HREF="doft.css">
+	</HEAD>
+	<BODY class="body">
+		<DIV class=corps>
+			<DIV class="header">
+				<IMG id="D42" TITLE="Day of the 42" ALT="Day of the 42" SRC="ressources/day_of_the_42.png">
+				<IMG id="loupe" TITLE="Loupe" ALT=Loupe SRC="ressources/loupe.png">
+				<DIV id="test">
+					<A HREF="http://www.disney.com" ><IMG id="reload" TITLE="Recommencer au début" SRC="ressources/reload.png"></A>
+					<A HREF="http://www.relaischateaux.com" ><IMG id="cross" TITLE="Déconnecter" SRC="ressources/close.gif"></A>
+				</DIV>
+			</DIV>
+			<TABLE class=left>
+				<tr>
+					<td>
+						<IMG id=arrow TITLE="Avancer" ALT="Avancer" SRC="ressources/arrow.png">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<IMG id=main TITLE="Prendre" ALT="Prendre" SRC="ressources/main.png">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<IMG id=oeil TITLE="Regarder" ALT="Regarder" SRC="ressources/oeil.png">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<IMG id=outil TITLE="Utiliser" ALT="Utiliser" SRC="ressources/outil.png">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<IMG id=chat TITLE="Parler" ALT="Parler" SRC="ressources/chat-icon.png">
+					</td>
+				</tr>
+			</TABLE>
+			<TABLE class=middle>
+				<tr>
+					<td>
+						<MAP name="map1">
+							<AREA HREF="http://www.ikea.com" SHAPE=rect COORDS=175,230,260,380>
+							<AREA HREF="http://www.apple.com" SHAPE=rect COORDS=445,230,550,330>
+						</MAP>
+						<IMG id=cluster TITLE=Cluster ALT=Cluster SRC="ressources/cluster.jpg" usemap=#map1>
+					</td>
+				</tr>
+			</TABLE>
+			<TABLE class=right>
+				<tr>
+					<td class=cell>
+						<IMG id=book ALT="Un livre" TITLE="Un livre" SRC="ressources/book.png">
+					</td>
+				</tr>
+				<tr>
+					<td class=cell>
+						<IMG id=towel TITLE="N'oubliez pas votre serviette" ALT="N'oubliez pas votre serviette" SRC="ressources/towel.png">
+					</td>
+				</tr>
+				<tr>
+					<td class=cell>
+						<div id=brick TITLE="Un mur" ALT="Un mur">
+						</div>
+					</td>
+				</tr>
+			</TABLE>
+	<DIV id=inputbox>
+		<p class=text >Vous <span id=big>entrez</span> alors dans une grande piece remplie <span id=under>d'ordinateurs</span>...
+		<BR />
+		<span id=italic>- Bonjour, vous êtes nouveau ici ?</span>
+		<BR />
+	<input id=box TITLE="Ecrivez ici" type=text>
+	<input type=submit TITLE="Envoyer la reponse" value=Répondre>
+	</p>
+	</DIV>
+	</DIV>
+	</BODY>
+</HTML>

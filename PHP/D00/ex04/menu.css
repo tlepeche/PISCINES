@@ -1,0 +1,50 @@
+body
+{
+	background-image: url(http://blogs.wefrag.com/dere011/files/2010/11/starcraft2-logo-490x260.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#menu-deroulant 
+{
+	text-align: center;
+}
+
+#menu-deroulant li
+{
+	display: inline-block;
+}
+
+#menu-deroulant ul li
+{
+	display: inherit;
+}
+
+#menu-deroulant a
+{
+	display: block;
+}
+
+#menu-deroulant ul
+{
+	position: absolute;
+	display: none;
+}
+
+#menu-deroulant li:hover ul
+{
+	display: block;
+}
+
+.logo
+{
+	margin-left: 20px;
+	width: 150px;
+	height: 150px;
+}
+
+.ss_logo
+{
+	width: 50px;
+	height: 50px;
+}

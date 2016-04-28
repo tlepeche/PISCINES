@@ -1,0 +1,22 @@
+<- Vector ----------------------------------------------------------------
+Vector class handles two Vertex variables, one destination and one origin
+Vertex origin isn't necessary.
+
+The function magnitude return the lenght of the vector.
+
+The function return the vector normalized.
+
+The function add return the sum of 2 vectors.
+
+The function sub return the difference between 2 vectors.
+
+The function opposite return the opposite vector.
+
+The function scalarProduct return the product of 2 vectors.
+
+The function dotProduct return the scalar product of 2 vectors.
+
+The function cos return the cos of the angle betweeen the 2 vectors.
+
+The function crossProduct return the cross product of the the 2 vectors.
+--------------------------------------------------------------- Vector ->

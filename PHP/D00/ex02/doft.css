@@ -1,0 +1,211 @@
+.body
+{
+	background-color: #505050;
+}
+
+.corps
+{
+	width: 1430px;
+}
+
+.header
+{
+	box-shadow: 8px 8px 5px black;
+	height: 100px;
+	width: 865px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #909090;
+	border-radius: 15px
+}
+
+#test 
+{
+	margin-left: 425px;
+	display: inline-block;
+	height: 100px;
+	padding-left: 20px;
+}
+
+#D42 
+{
+	margin-left: 0px;
+	height: 100%;
+	border-radius: 15px
+}
+
+#loupe
+{
+	position: absolute;
+	float: top;
+	margin-left: 250px;
+	margin-top: 10px;
+	height: 105px;
+	width: 190px;
+}
+
+#reload
+{
+	height: 15%;
+	padding-top:10px;
+	padding-bottom: 50px;
+	display: block;
+}
+
+#cross 
+{
+	height: 15%;
+	padding-bottom: 5px;
+	display: block
+}
+
+.left
+{
+	box-shadow: 8px 8px 5px black;
+	display: inline-block;
+	width: 90px;
+	background-color: #909090;
+	border-radius: 15px;
+	margin-top: 20px;
+	margin-left : 300px;
+	float: left;
+}
+
+#arrow
+{
+	height: 60px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#main
+{
+	height: 60px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#oeil
+{
+	border: 5px;
+	border: solid;
+	border-color: red;
+	height: 60px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#outil
+{
+	height: 60px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#chat
+{
+	height: 60px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.middle
+{
+	box-shadow: 8px 8px 5px black;
+	display: inline-block;
+	background-color: #909090;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-left: 25px;
+	width: 575px;
+	height: 430px;
+}
+
+#cluster
+{
+	margin: 5px 5px 5px 5px;
+	width: 560px;
+	height: 410px;
+}
+
+.right
+{
+	display: inline-block;
+	box-shadow: 8px 8px 5px black;
+	width: 90px;
+	height: 345px;
+	background-color: #909090;
+	border-radius: 15px;
+	margin-top: 20px;
+	margin-right: 325px;
+	float: right;
+}
+
+.cell
+{
+	height: 60px;
+	width: 80px;
+}
+
+#book
+{
+	width: 40px;
+	height: 60px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+#towel
+{
+	width: 60px;
+	height: 40px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#brick
+{
+	margin-left: 2px;
+	margin-right: 2px;
+	width: 80px;
+	height: 60px;
+	background-image: url("ressources/brick.jpg");
+}
+
+#inputbox
+{
+	position: absolute;
+	box-shadow: 8px 8px 5px black;
+	display: inline-block;
+	width: 400px;
+	height: 125px;
+	border-radius: 15px;
+	background-color: #adff2f;
+	float: left;
+	margin: 400px 0px 0px -800px;
+}
+
+.text
+{
+	margin-left: 10px;
+}
+
+#big
+{
+	font-size: 30px;
+}
+
+#under
+{
+	text-shadow: 5px 5px 6px red;
+}
+
+#italic
+{
+	font-style: italic;
+}
+
+#box
+{
+	width: 275px;
+}
